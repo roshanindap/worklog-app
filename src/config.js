@@ -3,5 +3,4 @@ const config = {
         API_URL: 'https://worklog-f2xu.onrender.com',
     },
 };
-
 export default config.prod;

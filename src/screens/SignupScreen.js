@@ -5,6 +5,7 @@ import * as ImagePicker from "expo-image-picker";
 import axios from "axios";
 import config from "../config";
 
+
 export default function SignupScreen({ navigation }) {
     const [step, setStep] = useState(1);
     const [form, setForm] = useState({ first_name: "", last_name: "", email: "", password: "", profile_image: null });

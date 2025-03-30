@@ -9,6 +9,7 @@ import {
 import { MaterialIcons } from '@expo/vector-icons';
 import { format } from 'date-fns';
 
+
 const ViewWorklogScreen = ({ route, navigation }) => {
     const { worklog } = route.params;
 

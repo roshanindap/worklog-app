@@ -26,6 +26,7 @@ const EditWorklogScreen = ({ route, navigation }) => {
         setWorklog(prev => ({ ...prev, [name]: value }));
     };
 
+
     const saveWorklog = async () => {
         try {
             setSaving(true);

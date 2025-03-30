@@ -137,6 +137,7 @@ export default function ProfileScreen({ navigation }) {
         );
     }
 
+
     return (
         <ScrollView contentContainerStyle={styles.container}>
             {user?.profile_image ? (
