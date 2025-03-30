@@ -1,6 +1,6 @@
 const config = {
     prod: {
-        API_URL: 'https://6529-43-255-222-73.ngrok-free.app',
+        API_URL: 'https://worklog-f2xu.onrender.com',
     },
 };
 
